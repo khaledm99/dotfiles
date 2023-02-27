@@ -1,0 +1,14 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github wrapper
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'junegunn/goyo.vim'
+Plug 'jmckiern/vim-venter'
+Plug 'jiangmiao/auto-pairs'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
